@@ -1,2 +1,0 @@
-# World Border Display
-execute as @a[tag=!global.ignore.gui,tag=!global.ignore,scores={uhc.wb.display=1}] at @s run title @s actionbar ["",{"text":"Border size: ","color":"gold"},{"score":{"name":"wbSize","objective":"uhc.trigger"},"color":"white"},{"text":"x","color":"white"},{"score":{"name":"wbSize","objective":"uhc.trigger"}}]
