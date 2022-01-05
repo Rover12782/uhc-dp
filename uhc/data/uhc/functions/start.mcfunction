@@ -30,6 +30,7 @@ scoreboard players set start uhc.trigger 1
 
 ### World Prep
 gamerule doDaylightCycle true
+gamerule doWeatherCycle true
 time set 0
 execute if score wb_shrinking uhc.trigger matches 1 if score wb_1k uhc.trigger matches 1 run function wb:shrinking/wb_shrinking_1k
 execute if score wb_shrinking uhc.trigger matches 1 if score wb_2k uhc.trigger matches 1 run function wb:shrinking/wb_shrinking_2k
