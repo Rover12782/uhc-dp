@@ -1,5 +1,5 @@
 # Gold
-execute at @a[scores={uhc.c.goldM=1..}] run tag @e[type=item,distance=..5,nbt={Item:{id:"minecraft:gold_ore"}},tag=!global.ignore] add uhc.replace.gold
+execute at @a[scores={uhc.c.goldM=1..}] run tag @e[type=item,distance=..5,nbt={Item:{id:"minecraft:raw_gold"}},tag=!global.ignore] add uhc.replace.gold
 execute at @e[tag=uhc.replace.gold] run summon minecraft:item ~ ~0.0001 ~ {Item:{id:"minecraft:gold_ingot",Count:1}}
 execute at @e[tag=uhc.replace.gold] run summon minecraft:experience_orb ~ ~0.0001 ~ {Value:1}
 execute at @e[tag=uhc.replace.gold] run summon minecraft:experience_orb ~ ~0.0001 ~ {Value:1}
@@ -8,7 +8,7 @@ kill @e[tag=uhc.replace.gold]
 scoreboard players reset @a uhc.c.goldM
 
 # Iron
-execute at @a[scores={uhc.c.ironM=1..}] run tag @e[type=item,distance=..5,nbt={Item:{id:"minecraft:iron_ore"}},tag=!global.ignore] add uhc.replace.iron
+execute at @a[scores={uhc.c.ironM=1..}] run tag @e[type=item,distance=..5,nbt={Item:{id:"minecraft:raw_iron"}},tag=!global.ignore] add uhc.replace.iron
 execute at @e[tag=uhc.replace.iron] run summon minecraft:item ~ ~0.0001 ~ {Item:{id:"minecraft:iron_ingot",Count:1}}
 execute at @e[tag=uhc.replace.iron] run summon minecraft:experience_orb ~ ~0.0001 ~ {Value:1}
 execute at @e[tag=uhc.replace.iron] run summon minecraft:experience_orb ~ ~0.0001 ~ {Value:1}
