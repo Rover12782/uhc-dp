@@ -15,6 +15,41 @@ execute at @e[tag=uhc.replace.iron] run summon minecraft:experience_orb ~ ~0.000
 kill @e[tag=uhc.replace.iron]
 scoreboard players reset @a uhc.c.ironM
 
+# Copper
+execute at @a[scores={uhc.c.copperM=1..}] run tag @e[type=item,distance=..5,nbt={Item:{id:"minecraft:raw_copper"}},tag=!global.ignore] add uhc.replace.copper
+execute at @e[tag=uhc.replace.copper] run summon minecraft:item ~ ~0.0001 ~ {Item:{id:"minecraft:copper_ingot",Count:1}}
+execute at @e[tag=uhc.replace.copper] run summon minecraft:experience_orb ~ ~0.0001 ~ {Value:1}
+execute at @e[tag=uhc.replace.copper] run summon minecraft:experience_orb ~ ~0.0001 ~ {Value:1}
+execute at @e[tag=uhc.replace.copper] run summon minecraft:experience_orb ~ ~0.0001 ~ {Value:1}
+kill @e[tag=uhc.replace.copper]
+scoreboard players reset @a uhc.c.goldM
+
+# Deepslate Gold
+execute at @a[scores={uhc.c.DgoldM=1..}] run tag @e[type=item,distance=..5,nbt={Item:{id:"minecraft:raw_gold"}},tag=!global.ignore] add uhc.replace.gold
+execute at @e[tag=uhc.replace.gold] run summon minecraft:item ~ ~0.0001 ~ {Item:{id:"minecraft:gold_ingot",Count:1}}
+execute at @e[tag=uhc.replace.gold] run summon minecraft:experience_orb ~ ~0.0001 ~ {Value:1}
+execute at @e[tag=uhc.replace.gold] run summon minecraft:experience_orb ~ ~0.0001 ~ {Value:1}
+execute at @e[tag=uhc.replace.gold] run summon minecraft:experience_orb ~ ~0.0001 ~ {Value:1}
+kill @e[tag=uhc.replace.gold]
+scoreboard players reset @a uhc.c.goldM
+
+# Deepslate Iron
+execute at @a[scores={uhc.c.DironM=1..}] run tag @e[type=item,distance=..5,nbt={Item:{id:"minecraft:raw_iron"}},tag=!global.ignore] add uhc.replace.iron
+execute at @e[tag=uhc.replace.iron] run summon minecraft:item ~ ~0.0001 ~ {Item:{id:"minecraft:iron_ingot",Count:1}}
+execute at @e[tag=uhc.replace.iron] run summon minecraft:experience_orb ~ ~0.0001 ~ {Value:1}
+execute at @e[tag=uhc.replace.iron] run summon minecraft:experience_orb ~ ~0.0001 ~ {Value:1}
+kill @e[tag=uhc.replace.iron]
+scoreboard players reset @a uhc.c.ironM
+
+# Deepslate Copper
+execute at @a[scores={uhc.c.DcopperM=1..}] run tag @e[type=item,distance=..5,nbt={Item:{id:"minecraft:raw_copper"}},tag=!global.ignore] add uhc.replace.copper
+execute at @e[tag=uhc.replace.copper] run summon minecraft:item ~ ~0.0001 ~ {Item:{id:"minecraft:copper_ingot",Count:1}}
+execute at @e[tag=uhc.replace.copper] run summon minecraft:experience_orb ~ ~0.0001 ~ {Value:1}
+execute at @e[tag=uhc.replace.copper] run summon minecraft:experience_orb ~ ~0.0001 ~ {Value:1}
+execute at @e[tag=uhc.replace.copper] run summon minecraft:experience_orb ~ ~0.0001 ~ {Value:1}
+kill @e[tag=uhc.replace.copper]
+scoreboard players reset @a uhc.c.goldM
+
 # Potatoes
 execute at @a[scores={uhc.c.potatoM=1..}] run tag @e[type=item,distance=..5,nbt={Item:{id:"minecraft:potato"}},tag=!global.ignore] add uhc.replace.potato
 execute at @e[tag=uhc.replace.potato] run summon minecraft:item ~ ~0.0001 ~ {Item:{id:"minecraft:baked_potato",Count:1}}
