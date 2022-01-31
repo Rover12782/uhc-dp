@@ -20,57 +20,57 @@ setworldspawn 0 241 0
 
 ### Teams
 team add uhc.aqua
-team add uhc.black
 team add uhc.blue
+team add uhc.gold
+team add uhc.gray
+team add uhc.green
+team add uhc.lightPurple
+team add uhc.red
+team add uhc.yellow
 team add uhc.darkAqua
 team add uhc.darkBlue
 team add uhc.darkGray
 team add uhc.darkGreen
 team add uhc.darkPurple
 team add uhc.darkRed
-team add uhc.gold
-team add uhc.gray
-team add uhc.green
-team add uhc.lightPurple
-team add uhc.red
 team add uhc.white
-team add uhc.yellow
+team add uhc.black
 
 # Colour Teams
 team modify uhc.aqua color aqua
-team modify uhc.black color black
 team modify uhc.blue color blue
+team modify uhc.gold color gold
+team modify uhc.gray color gray
+team modify uhc.green color green
+team modify uhc.lightPurple color light_purple
+team modify uhc.red color red
+team modify uhc.yellow color yellow
 team modify uhc.darkAqua color dark_aqua
 team modify uhc.darkBlue color dark_blue
 team modify uhc.darkGray color dark_gray
 team modify uhc.darkGreen color dark_green
 team modify uhc.darkPurple color dark_purple
 team modify uhc.darkRed color dark_red
-team modify uhc.gold color gold
-team modify uhc.gray color gray
-team modify uhc.green color green
-team modify uhc.lightPurple color light_purple
-team modify uhc.red color red
 team modify uhc.white color white
-team modify uhc.yellow color yellow
+team modify uhc.black color black
 
 # Friendly Fire Off
 team modify uhc.aqua friendlyFire false
-team modify uhc.black friendlyFire false
 team modify uhc.blue friendlyFire false
+team modify uhc.gold friendlyFire false
+team modify uhc.gray friendlyFire false
+team modify uhc.green friendlyFire false
+team modify uhc.lightPurple friendlyFire false
+team modify uhc.red friendlyFire false
+team modify uhc.yellow friendlyFire false
 team modify uhc.darkAqua friendlyFire false
 team modify uhc.darkBlue friendlyFire false
 team modify uhc.darkGray friendlyFire false
 team modify uhc.darkGreen friendlyFire false
 team modify uhc.darkPurple friendlyFire false
 team modify uhc.darkRed friendlyFire false
-team modify uhc.gold friendlyFire false
-team modify uhc.gray friendlyFire false
-team modify uhc.green friendlyFire false
-team modify uhc.lightPurple friendlyFire false
-team modify uhc.red friendlyFire false
 team modify uhc.white friendlyFire false
-team modify uhc.yellow friendlyFire false
+team modify uhc.black friendlyFire false
 
 
 
@@ -160,13 +160,13 @@ scoreboard players set Episode uhc.info 0
 scoreboard players set MinutesPlayed uhc.info 0
 
 # World Border
-scoreboard players set wb_shrinking uhc.trigger 1
-scoreboard players set wb_corner uhc.trigger 0
+scoreboard players set wb_shrinking uhc.trigger 0
+scoreboard players set wb_corner uhc.trigger 1
 scoreboard players set wb_1k uhc.trigger 0
-scoreboard players set wb_2k uhc.trigger 1
+scoreboard players set wb_2k uhc.trigger 0
 scoreboard players set wb_3k uhc.trigger 0
 scoreboard players set wb_4k uhc.trigger 0
-scoreboard players set wb_5k uhc.trigger 0
+scoreboard players set wb_5k uhc.trigger 1
 
 
 
