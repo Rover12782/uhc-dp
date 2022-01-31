@@ -161,6 +161,7 @@ scoreboard players set MinutesPlayed uhc.info 0
 
 # World Border
 scoreboard players set wb_shrinking uhc.trigger 1
+scoreboard players set wb_corner uhc.trigger 0
 scoreboard players set wb_1k uhc.trigger 0
 scoreboard players set wb_2k uhc.trigger 1
 scoreboard players set wb_3k uhc.trigger 0
