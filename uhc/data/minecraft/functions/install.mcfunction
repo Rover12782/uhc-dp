@@ -8,7 +8,7 @@ tellraw @p {"text":"[UHC Control Book]","bold":true,"color":"gold","clickEvent":
 tellraw @p {"text":"[Customisation Options]","bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/function uhc:books/customisation"},"hoverEvent":{"action":"show_text","contents":[{"text":"This books controls the different gamemodes and extra configuration","color":"white"}]}}
 
 # Episode Marker Options
-tellraw @p {"text":"[Episode Options]","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/function uhc:books/episode"},"hoverEvent":{"action":"show_text","contents":[{"text":"This books controls the episodes time and markers","color":"white"}]}}
+tellraw @p {"text":"[Episodes Options]","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/function uhc:books/episodes"},"hoverEvent":{"action":"show_text","contents":[{"text":"This books controls the episodes time and markers","color":"white"}]}}
 
 # World Border Options
 tellraw @p {"text":"[World Border Options]","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/function uhc:books/wb"},"hoverEvent":{"action":"show_text","contents":[{"text":"This books controls the different wb options available","color":"white"}]}}
