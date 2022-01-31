@@ -1,0 +1,17 @@
+tp @a[tag=!global.ignore,team=uhc.aqua] 98 ~ 98
+tp @a[tag=!global.ignore,team=uhc.blue] -98 ~ -98
+tp @a[tag=!global.ignore,team=uhc.gold] 98 ~ -98
+tp @a[tag=!global.ignore,team=uhc.gray] -98 ~ -98
+tp @a[tag=!global.ignore,team=uhc.green] 98 ~ 50
+tp @a[tag=!global.ignore,team=uhc.lightPurple] 98 ~ -50
+tp @a[tag=!global.ignore,team=red] 98 ~ 0
+tp @a[tag=!global.ignore,team=yellow] -98 ~ 50
+tp @a[tag=!global.ignore,team=uhc.darkAqua] -98 ~ -50
+tp @a[tag=!global.ignore,team=uhc.darkBlue] -98 ~ 0
+tp @a[tag=!global.ignore,team=uhc.darkGray] 50 ~ 98 
+tp @a[tag=!global.ignore,team=uhc.darkGreen] -50 ~ 98
+tp @a[tag=!global.ignore,team=uhc.darkPurple] 0 ~ 98
+tp @a[tag=!global.ignore,team=uhc.darkRed] 50 ~ -98 
+tp @a[tag=!global.ignore,team=uhc.black] -50 ~ -98
+tp @a[tag=!global.ignore,team=white] 0 ~ -98
+execute as @a[tag=!global.ignore] at @s[tag=!global.ignore] run spreadplayers ~ ~ 0 1 false @s[tag=!global.ignore]
