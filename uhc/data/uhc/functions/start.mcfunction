@@ -35,10 +35,10 @@ execute if score wb_shrinking uhc.trigger matches 1 if score wb_3k uhc.trigger m
 execute if score wb_shrinking uhc.trigger matches 1 if score wb_4k uhc.trigger matches 1 run function wb:shrinking/wb_shrinking_4k
 execute if score wb_shrinking uhc.trigger matches 1 if score wb_5k uhc.trigger matches 1 run function wb:shrinking/wb_shrinking_5k
 execute if score wb_shrinking uhc.trigger matches 0 if score wb_1k uhc.trigger matches 1 run function wb:static/wb_static_1k
-execute if score wb_shrinking uhc.trigger matches 0 if score wb_2k uhc.trigger matches 1 run function wb:static/wb_static_1k
-execute if score wb_shrinking uhc.trigger matches 0 if score wb_3k uhc.trigger matches 1 run function wb:static/wb_static_1k
-execute if score wb_shrinking uhc.trigger matches 0 if score wb_4k uhc.trigger matches 1 run function wb:static/wb_static_1k
-execute if score wb_shrinking uhc.trigger matches 0 if score wb_5k uhc.trigger matches 1 run function wb:static/wb_static_1k
+execute if score wb_shrinking uhc.trigger matches 0 if score wb_2k uhc.trigger matches 1 run function wb:static/wb_static_2k
+execute if score wb_shrinking uhc.trigger matches 0 if score wb_3k uhc.trigger matches 1 run function wb:static/wb_static_3k
+execute if score wb_shrinking uhc.trigger matches 0 if score wb_4k uhc.trigger matches 1 run function wb:static/wb_static_4k
+execute if score wb_shrinking uhc.trigger matches 0 if score wb_5k uhc.trigger matches 1 run function wb:static/wb_static_5k
 
 ### Episode Markers
 scoreboard players set time uhc.ticks 0
