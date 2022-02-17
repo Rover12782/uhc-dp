@@ -24,3 +24,6 @@ execute as @a[tag=!global.ignore] run tellraw @s {"text":"[Get all books]","bold
 
 # All in one
 execute as @a[tag=!global.ignore] run tellraw @s {"text":"[World Border Options]","bold":true,"color":"white","clickEvent":{"action":"run_command","value":"/function uhc:books/all_in_one"},"hoverEvent":{"action":"show_text","contents":[{"text":"Get all books just in one book","color":"white"}]}}
+
+# Run setup function
+function uhc:setup
