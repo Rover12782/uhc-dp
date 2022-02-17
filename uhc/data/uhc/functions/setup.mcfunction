@@ -10,8 +10,7 @@ time set day
 
 
 ### Holding Chamber
-fill -7 240 -7 7 244 7 minecraft:barrier hollow
-fill -7 244 -7 7 244 7 minecraft:air
+fill -14 252 -14 14 240 14 minecraft:barrier hollow
 summon armor_stand 0 241 -7 {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,ShowArms:0b,Small:0b,Marker:0b,Invisible:1b,NoBasePlate:1b,DisabledSlots:4144959,ArmorItems:[{},{},{id:"minecraft:golden_apple",Count:1b},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:"Rover1_"}}],CustomName:'{"text":"UHC Data Pack By Rover","color":"gold"}'}
 tp @a[tag=!global.ignore,tag=!global.ignore.pos] 0 241 0
 setworldspawn 0 241 0
