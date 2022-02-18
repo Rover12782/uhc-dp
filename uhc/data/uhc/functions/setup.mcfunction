@@ -93,6 +93,10 @@ scoreboard objectives add uhc.g.diamondsM minecraft.mined:minecraft.diamond_ore
 # Auto Smelt
 scoreboard objectives add uhc.c.ironM minecraft.mined:minecraft.iron_ore
 scoreboard objectives add uhc.c.goldM minecraft.mined:minecraft.gold_ore
+scoreboard objectives add uhc.c.copperM minecraft.mined:minecraft.copper_ore
+scoreboard objectives add uhc.c.DironM minecraft.mined:minecraft.deepslate_iron_ore
+scoreboard objectives add uhc.c.DgoldM minecraft.mined:minecraft.deepslate_gold_ore
+scoreboard objectives add uhc.c.DcopperM minecraft.mined:minecraft.deepslate_copper_ore
 scoreboard objectives add uhc.c.rabbitK minecraft.killed:minecraft.rabbit
 scoreboard objectives add uhc.c.potatoM minecraft.mined:minecraft.potatoes
 scoreboard objectives add uhc.c.fishCatch minecraft.custom:minecraft.fish_caught
